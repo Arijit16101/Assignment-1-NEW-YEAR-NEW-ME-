@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+h4{
+    color: gray;
+}
+.backgorund-image{
+    background: url(images/banner/banner1.png);
+    background-size: cover;
+}
+input{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 30px;
+    border-width: 1px;
+    margin: 30px 0 10px 0;
+    width: 300px;
+}
+button{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+}
+#banner{
+    margin-bottom: 30px;
+    text-align: right;
+}
+#banner-details{
+    height: 100vh;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: center;
+   margin-right: 150px;
+}
+#banner-heading{
+    width: 500px;
+    text-align: right;
+    font-size: 65px;
+}
+#banner-text{
+    width: 500px;
+    text-align: right;
+    font-size: 16px;
+}
+#second-section{
+    text-align: center;
+    margin: 10px 50px;
+}
+#failure-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 75px;
+}
+#failure-section-text{
+    width: 500px;
+}
+#third-section{
+    margin: 30px 0;
+}
+#section-3-heading{
+    margin: 20px 0;
+    text-align: center;
+}
+#my-class-section{
+    position: relative;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-evenly;
+   margin: 0 50px;
+   text-align: center;
+   
+}
+
+#fourth-section{
+    background: linear-gradient(to right, rgba(255, 60, 0, 0.96), rgba(255, 255, 255, 0.4)), url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 46vh;
+    text-align: left;
+    color: white;
+    margin: 30px 85px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+#footer-section{
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 50vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer-description{
+    margin-left: 50px;
+    text-align: left;
+    width: 500px;
+}
+#footer-form{
+    margin-right: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
